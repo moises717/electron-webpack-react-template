@@ -53,7 +53,7 @@ ipcMain.handle("windowsActions", (_, action) => {
 			break;
 
 		case "closeApp":
-			mainWindow.destroy();
+			mainWindow.close();
 			break;
 		case "maxUnmax":
 			if (mainWindow.isMaximized()) {

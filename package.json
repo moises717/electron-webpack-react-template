@@ -24,7 +24,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "electron-template"
+            "name": "productname"
           }
         },
         {
