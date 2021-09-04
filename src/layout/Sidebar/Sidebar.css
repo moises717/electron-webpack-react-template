@@ -1,0 +1,6 @@
+.sidebarLayout {
+	min-height: calc(100vh - 55px);
+	margin-top: 55px;
+	position: fixed !important;
+	left: 0;
+}
